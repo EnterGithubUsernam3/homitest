@@ -34,10 +34,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Public Listings</h1>
 
-        {/* //     <p className={styles.description}>
-    //       Get started by editing{' '}
-    //       <code className={styles.code}>pages/index.js</code>
-    //     </p> */}
+    
 
         <div id="cards" className={styles.grid}>
           {/* This is the the function that loads all the data from the JSON file . I choose to display them in card form */}
